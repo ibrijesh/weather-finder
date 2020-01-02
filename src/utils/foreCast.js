@@ -5,8 +5,10 @@ const chalk=require('chalk')
 
 const foreCast = (longitude, latitude, callback) => {
     const url = 'https://api.darksky.net/forecast/d59800cb656d9ff535448e7552c32a07/' + longitude + ',' + latitude+'?units=si'
-  console.log(url);
   
+console.log(url);
+
+    
     request({ url, json: true }, (error, {body}) => {
       if (error) {
         callback('Unable to connect to forecast! ', undefined)
@@ -26,25 +28,11 @@ const foreCast = (longitude, latitude, callback) => {
             humidity:body.currently.humidity
           }
           
-        })
+        });
 
-        //console.log(summary);
-        //console.log(temperature); 
-        /*
-       console.log(body.daily.data[0].icon);
-       console.log(body.daily.data[0].windSpeed);
-       console.log(body.daily.data[0].visibility);
-       console.log(body.daily.data[0].humidity);
-       console.log(body.daily.data[0].temperatureHigh);
-       console.log(body.daily.data[0].temperatureMin);
-
-       */
-        
-        
       } 
-  
-  
-    })
+    
+    });
   }
   
 

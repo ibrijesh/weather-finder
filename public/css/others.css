@@ -1,0 +1,15 @@
+@media only screen and (max-width: 800px){
+
+    body .weather-app-body{
+        width: 60%;
+        min-height: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+
+    body .weather-app-body{
+        width: 100%;
+        min-height: 100%;
+    }
+}
