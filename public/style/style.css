@@ -1,0 +1,72 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body i {
+  font-size: 50px;
+  color: #fff;
+  margin-left: 4rem;
+}
+
+body .center {
+  text-align: center;
+}
+
+body #header {
+  position: -webkit-sticky;
+  position: sticky;
+  background: #2b2b28;
+  border-bottom: 0.5px solid #3a3a36;
+  padding: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+body #header #nav-bar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+}
+
+body #header #nav-bar ul li {
+  margin: 0 0.5rem;
+  padding: 1rem;
+  border-radius: 5px;
+  background: #fff;
+}
+
+body #header #nav-bar ul li a {
+  color: #000;
+  font-weight: 300;
+  font-size: 15px;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
