@@ -39,12 +39,16 @@ body {
     }
 
     .created-by {
-        font-weight: 100;
         font-size: 15px;
         color: aqua;
 
+        p{
+            font-weight: 550 !important;
+        }
         i {
+            font-weight: 100 !important;
             color: #fff;
+            
         }
     }
 
@@ -79,6 +83,7 @@ body {
             }
 
             .finder-input {
+                font-weight: 400 !important;
                 font-size: 17px;
                 color: #fff;
                 background: transparent;
@@ -94,6 +99,7 @@ body {
 
             .finder-input:hover {
                 border-bottom: #fff solid 1px;
+
             }
 
             .btn {

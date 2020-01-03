@@ -35,12 +35,16 @@ body .add-info label {
 }
 
 body .created-by {
-  font-weight: 100;
   font-size: 15px;
   color: aqua;
 }
 
+body .created-by p {
+  font-weight: 550 !important;
+}
+
 body .created-by i {
+  font-weight: 100 !important;
   color: #fff;
 }
 
@@ -81,6 +85,7 @@ body .weather-app-body .weather-container .finder {
 }
 
 body .weather-app-body .weather-container .finder-input {
+  font-weight: 400 !important;
   font-size: 17px;
   color: #fff;
   background: transparent;
