@@ -5,10 +5,10 @@
 
 body {
   background: #2b2b28;
-  color: #ffff;
+  color: #fff;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 27px;
-  font-weight: 200;
+  font-weight: 550 !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -177,7 +177,7 @@ body .weather-app-body .weather-container .search-result .logo-temp .summary {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  max-width: 50%;
+  max-width: 60%;
 }
 
 body .weather-app-body .weather-container .search-result .logo-temp i {
@@ -225,5 +225,9 @@ body .weather-app-body .weather-container .add-info .add-info-item {
 
 body .weather-app-body .weather-container .add-info .add-info-item:hover {
   border: solid 1px #fff;
+}
+
+body .weather-app-body .weather-container .add-info .add-o {
+  font-size: 16px !important;
 }
 /*# sourceMappingURL=style.css.map */

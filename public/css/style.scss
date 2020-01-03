@@ -11,10 +11,10 @@
 
 body {
     background: #2b2b28;
-    color: #ffff;
+    color: #fff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 27px;
-    font-weight: 200;
+    font-weight: 550 !important;
     display: flex;
     justify-content: center;
 
@@ -156,7 +156,7 @@ body {
                     .summary {
                         display: flex;
                         flex-direction: column;
-                        max-width: 50%;
+                        max-width: 60%;
 
                     }
 
@@ -204,7 +204,9 @@ body {
                     border: solid 1px #fff;
                 }
 
-               
+               .add-o{
+                   font-size: 16px !important;
+               }
 
             }
 
