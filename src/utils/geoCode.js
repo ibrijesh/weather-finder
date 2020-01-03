@@ -5,12 +5,11 @@ const geoCode = (address, callback) => {
 
     const url =
       'https://api.mapbox.com/geocoding/v5/mapbox.places/' + encodeURIComponent(address) + '.json?access_token=pk.eyJ1IjoiYnJpamVzaHlhZGF2MDA3IiwiYSI6ImNrM3U2ZnAxaTA5bzgzZWxrdzF2cTZqeWwifQ.RdnGhtRkYmstnLJ3yG0-6g&limit=1';
-   console.log(url);
-   
-      
+
   
     request({url,json: true}, (error, {body}) => {
   
+      
       if (error) {
         callback('Unable to  connect to the Weather App', undefined)
   

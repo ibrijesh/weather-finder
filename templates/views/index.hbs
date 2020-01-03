@@ -15,6 +15,13 @@
     <!--CSS for mobile and tablets-->
     <link rel="stylesheet" href="css/others.css">
 
+
+    <!--JQuery-Link-->
+   <script
+  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+  crossorigin="anonymous"></script> 
+
     <title> Weather App</title>
 </head>
 
@@ -39,10 +46,8 @@
                     <label for="place" id="place">New York, USA</label>
                 </div>
                 <div class="logo-temp center" id="iconTemp">
-                    <div id="icon">
-                        <i class="fas fa-cloud-sun 6x "></i>
-                    </div>
-
+                    <canvas id="icon" width="90" height="90">
+                    </canvas>
                     <div class="summary center">
                         <label for="number" id="temp">34°C</label>
                         <label for="summary" class="center" id="summary">sunny day</label>
@@ -55,26 +60,41 @@
                 <label for="add">Additional Information</label>
                 <div class="add-info-item">
                     <label>High/Low </label>
-                    <label id="tempHL">37°C/32°C</label>
+                    <label id="tempHL" class="add-o">37°C/32°C</label>
                 </div>
                 <div class="add-info-item">
                     <label>Wind</label>
-                    <label id="windSpeed">32 Km/hr</label>
+                    <label id="windSpeed" class="add-o">32 Km/hr</label>
                 </div>
                 <div class="add-info-item">
                     <label>Humidity</label>
-                    <label id="humidity">43%</label>
+                    <label id="humidity" class="add-o" >43%</label>
                 </div>
                 <div class="add-info-item">
                     <label>Visibility</label>
-                    <label id="visibility">9 m</label>
+                    <label id="visibility"  class="add-o">9m</label>
                 </div>
             </div>
         </div>
     </div>
 
 
-    <script src="/js/app.js"></script>
+  
+    <script src="/js/skycons.js"></script>
+
+    <script>
+
+        var icons = new Skycons({ color: "white" });
+
+        icons.set("icon", "partly-cloudy-day");
+
+        icons.play();
+
+    </script>
+  
+  
+<script src="/js/app.js"></script>
+  
 </body>
 
 </html>

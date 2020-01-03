@@ -2,6 +2,8 @@
 //313549
 //F8aa9d
 //E7170A
+
+
 * {
     margin: 0;
     padding: 0;
@@ -148,6 +150,7 @@ body {
                     .summary {
                         display: flex;
                         flex-direction: column;
+                        max-width: 50%;
 
                     }
 
@@ -157,12 +160,15 @@ body {
 
                     label[for='number'] {
 
-                        font-size: 32px;
+                        font-size: 30px;
                         color: rgb(93, 235, 253);
+                        margin-left: 3%;
+                
                     }
 
                     label[for='summary'] {
                         font-size: 18px;
+                        margin-top: 1%;
                     }
                 }
 
@@ -186,11 +192,14 @@ body {
                     display: flex;
                     justify-content: space-between;
                     flex-direction: row;
+
                 }
 
                 .add-info-item:hover {
                     border: solid 1px #fff;
                 }
+
+               
 
             }
 

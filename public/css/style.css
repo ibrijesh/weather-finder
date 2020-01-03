@@ -172,6 +172,7 @@ body .weather-app-body .weather-container .search-result .logo-temp .summary {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  max-width: 50%;
 }
 
 body .weather-app-body .weather-container .search-result .logo-temp i {
@@ -179,8 +180,9 @@ body .weather-app-body .weather-container .search-result .logo-temp i {
 }
 
 body .weather-app-body .weather-container .search-result .logo-temp label[for='number'] {
-  font-size: 32px;
+  font-size: 30px;
   color: #5debfd;
+  margin-left: 3%;
 }
 
 body .weather-app-body .weather-container .search-result .logo-temp label[for='summary'] {

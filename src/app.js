@@ -12,9 +12,6 @@ const port=process.env.PORT || 3000
 const app=express();
 
 
-console.log(Date());
-
-
 
 //path for Public and Views and Partial Directory//
 const publicDirectoryPath=path.join(__dirname,"../public");
@@ -67,12 +64,14 @@ geoCode(req.query.address,(error,{longitude,latitude,location}={})=>{
       
     }
          
-  
+
     res.send({
       foreCast:foreCastData,
       location,
       address:req.query.address
     });
+    
+
     
   });
 

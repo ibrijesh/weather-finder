@@ -1,15 +1,59 @@
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1050px) {
 
-    body .weather-app-body{
+    body .weather-app-body {
         width: 60%;
         min-height: 100%;
+
     }
+
+   .date-place{
+       font-size: 15px !important;
+   }
+
+    label[for='number'] {
+        font-size: 23px !important;
+    }
+
+    label[for='summary'] {
+        font-size: 16px !important;
+    }
+
+    .add-info label {
+        font-size: 19px !important;
+    }
+
+    .add-o {
+        font-size: 16px !important;
+    }
+
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 500px) {
 
-    body .weather-app-body{
+    body .weather-app-body {
         width: 100%;
         min-height: 100%;
     }
+
+    .date-place{
+        font-size: 15px !important;
+    }
+
+
+    label[for='number'] {
+        font-size: 20px !important;
+    }
+
+    label[for='summary'] {
+        font-size: 15px !important;
+    }
+
+    .add-info-item {
+        font-size: 18px !important;
+    }
+
+    .add-o {
+        font-size: 15px !important;
+    }
+
 }
