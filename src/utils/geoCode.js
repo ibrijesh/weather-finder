@@ -9,11 +9,18 @@ const geoCode = (address, callback) => {
   
     request({url,json: true}, (error, {body}) => {
   
+     
+      console.log(body.features);
       
       if (error) {
         callback('Unable to  connect to the Weather App', undefined)
   
-      } else if (body.features.length === 0) {
+      }else if ( body.features===undefined) {
+  
+        callback('Unable to find the location, Try another Location', undefined)
+  
+      } 
+      else if (body.features.length === 0 ) {
   
         callback('Unable to find the location, Try another Location', undefined)
   
