@@ -37,7 +37,7 @@ body .add-info label {
 body .created-by {
   font-weight: 100;
   font-size: 15px;
-  color: #5debfd;
+  color: #6beeff;
 }
 
 body .created-by i {
@@ -138,7 +138,7 @@ body .weather-app-body .weather-container .search-result .date-place {
 }
 
 body .weather-app-body .weather-container .search-result .date-place label[for='place'] {
-  color: #5debfd;
+  color: #6beeff;
 }
 
 body .weather-app-body .weather-container .search-result .date-place:hover {
@@ -181,12 +181,12 @@ body .weather-app-body .weather-container .search-result .logo-temp i {
 
 body .weather-app-body .weather-container .search-result .logo-temp label[for='number'] {
   font-size: 30px;
-  color: #5debfd;
-  margin-left: 3%;
+  color: #6beeff;
 }
 
 body .weather-app-body .weather-container .search-result .logo-temp label[for='summary'] {
   font-size: 18px;
+  margin-top: 1%;
 }
 
 body .weather-app-body .weather-container .search-result .logo-temp:hover {
