@@ -127,13 +127,19 @@ body {
                     flex-direction: column;
                     justify-content: center;
 
+                   label[for="date"]{
+                    text-transform: uppercase;
+                   }
+
                     label[for='place'] {
                         color: aqua;
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                     }
                 }
 
                 .date-place:hover {
                     border: solid 1px #fff;
+                    
                 }
 
                 .logo-temp {

@@ -137,8 +137,13 @@ body .weather-app-body .weather-container .search-result .date-place {
           justify-content: center;
 }
 
+body .weather-app-body .weather-container .search-result .date-place label[for="date"] {
+  text-transform: uppercase;
+}
+
 body .weather-app-body .weather-container .search-result .date-place label[for='place'] {
   color: aqua;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body .weather-app-body .weather-container .search-result .date-place:hover {
