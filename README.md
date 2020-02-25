@@ -2,7 +2,7 @@
 Application is Live at https://brijesh-weather-finder.herokuapp.com/
 
 
-Special Thank to-
+Special Thanks to-
 
 Animated weather glyphs Skycons 
 https://darkskyapp.github.io/skycons/
