@@ -1,7 +1,7 @@
 # Weather-Finder Web App
 ## Application is Live at
 ```
-https://brijesh-weather-finder.herokuapp.com/
+https://weather.ibrijesh.tech
 ```
 
 <br>
