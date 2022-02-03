@@ -1,7 +1,7 @@
 # Weather-Finder Web App
 ## Application is Live at
 ```
-https://weather.ibrijesh.tech
+https://weather.ibrijesh.me
 ```
 
 <br>
